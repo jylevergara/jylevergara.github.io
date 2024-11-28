@@ -94,7 +94,7 @@ const skillIcons = {
  * @description Se mapea el portafolioData para que tenga los iconos de las habilidades
  * 	Puedes ver Array.map en https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
  */
-export const getPortafolioData = portafolioData.map((item) => {
+export const getPortfolioData = portafolioData.map((item) => {
 	return {
 		// Se coloca todo el contenido previo del item
 		...item,
