@@ -15,7 +15,7 @@
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
-export const portafolioData = [
+export const portfolioData = [
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
 		title: 'Restaurant',
@@ -96,9 +96,7 @@ const skillIcons = {
  */
 export const getPortfolioData = portafolioData.map((item) => {
 	return {
-		// Se coloca todo el contenido previo del item
 		...item,
-		// Se cambian las skills por los iconos correspondientes
 		skills: item.skills.map((skill) => skillIcons[skill]),
 	};
 });
