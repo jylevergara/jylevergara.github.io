@@ -1,27 +1,10 @@
-/**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
- * @typedef PortfolioData
- * @property {string} imgSrc Url de la imagen
- * @property {string} title Titulo de la tarjeta
- * @property {string[]} skills Array con tus habilidades ej: ['React', 'CSS', 'JavaScript']
- * @property {string} description La description de la tarjeta
- * @property {string} demoURL Url de una pagina de demostración
- * @property {string} repoURL Url del repositorio, ej: https://github.com/usuario/repo
- * @property {string} anim La animación que se ejecutará cuando se cargue la tarjeta, ej: fade-up, fade-right, fade-left, fade-down
- * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
- */
-
-/**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
- * @type {PortfolioData[]}
- */
 export const portfolioData = [
 	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/gmg.png',
 		title: 'Grail Management Group',
 		skills: ['React', 'StyledComponents'],
 		description:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Property Management Website',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -48,8 +31,8 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/bmg.png',
+		title: 'Boost Media Group',
 		skills: ['React', 'CSS'],
 		description:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
@@ -58,8 +41,8 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/cosource.png',
+		title: 'Cosource',
 		skills: ['React', 'CSS'],
 		description:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
@@ -68,12 +51,42 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/statusphere.png',
+		title: 'Statusphere',
+		skills: ['Nodejs', 'React', 'Nodejs', 'MaterialUI'],
 		description:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			'Influencer marketing tech',
+		demoURL: 'https://joinstatus.com',
+		repoURL: '',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/cypresscovemarina.png',
+		title: 'Cypress Cove Marina',
+		skills: ['React', 'Nodejs', 'MaterialUI'],
+		description:
+			'Hospitality and recreation website',
+		demoURL: 'https://cypresscovemarina.wixsite.com/lakeviewhouse',
+		repoURL: '',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/statusphere.png',
+		title: 'Statusphere',
+		skills: ['React', 'Nodejs', 'MaterialUI'],
+		description:
+			'Influencer marketing tech',
+		demoURL: 'https://joinstatus.com',
+		repoURL: '',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/statusphere.png',
+		title: 'Statusphere',
+		skills: ['React', 'Nodejs', 'MaterialUI'],
+		description:
+			'Influencer marketing tech',
+		demoURL: 'https://joinstatus.com',
 		repoURL: '',
 		anim: 'fade-right',
 	}
@@ -82,6 +95,8 @@ export const portfolioData = [
 const skillIcons = {
 	JavaScript: 'skill-icons:javascript',
 	React: 'skill-icons:react-dark',
+	MaterialUI: 'skill-icons:materialui',
+	Nodejs: 'skill-icons:nodejs',
 	Astro: 'skill-icons:astro',
 	CSS: 'skill-icons:css',
 	Sass: 'skill-icons:sass',
