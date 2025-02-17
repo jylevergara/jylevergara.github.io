@@ -1,9 +1,9 @@
 ---
 import '../hero/hero.css';
-const { href, texto } = Astro.props;
+const { href, text } = Astro.props;
 ---
 
-<a class="primary button" href={href}>{texto}</a>
+<a class="primary button" href={href}>{text}</a>
 
 <style>
 	.button {
@@ -16,7 +16,7 @@ const { href, texto } = Astro.props;
 		font-size: var(--text-x-large);
 		transition: 0.35s opacity;
 		max-width: max-content;
-		color: var(--primary-90);
+		color: var(--primary-100);
 	}
 	.button:hover {
 		opacity: 0.7;

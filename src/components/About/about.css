@@ -52,4 +52,9 @@
 		min-width: 29.5rem;
 		min-height: 38.1rem;
 	}
+
+	.about__img {
+		display: none
+	}
+
 }
