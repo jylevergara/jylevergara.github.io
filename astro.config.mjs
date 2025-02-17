@@ -6,8 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  devToolbar: {
-    enabled: false
-  },
-  integrations: [react(), tailwind(), sitemap()]
+	site: 'https://jylevergara.github.io/', // Required for sitemap -> Replace with your site's URL
+	output: 'static',
+	integrations: [tailwind(), sitemap()],
 });
