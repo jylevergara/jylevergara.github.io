@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
 	.hero {
-		padding: 12rem 0 5rem 0;
+		padding: 0rem 0 5rem 0;
 	}
 	.hero .hero__img {
 		max-width: 28rem;

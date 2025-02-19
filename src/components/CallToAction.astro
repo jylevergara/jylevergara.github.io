@@ -1,12 +1,11 @@
 ---
 import Title from '../components/atoms/Title.astro';
-import { getCollection } from 'astro:content';
 import Button from './atoms/Button.astro';
 ---
 
-<section id="cta" class="flex w-full md:max-w-full p-40 justify-between items-center">
-	<div style="width: 480px;">
-		<Title text="Interested in working together?" />
+<section id="cta" class="flex flex-col w-full md:max-w-full p-40 justify-between items-center">
+	<div>
+		<h2 class="color__gradiente call__action">Interested in working together?</h2>
 	</div>
 	<div>
 	<Button href="mailto:hello@jylevergara.com" text="Send me a message" />

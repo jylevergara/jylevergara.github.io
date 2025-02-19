@@ -1,0 +1,21 @@
+/* .portfolio__container {
+	display: flex;
+	padding: 11rem 13.1rem;
+	justify-content: space-around;
+	gap: 4.4rem;
+} */
+
+.portfolio__elements {
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__container {
+        padding: 4rem 3.1rem;
+    }
+}
+

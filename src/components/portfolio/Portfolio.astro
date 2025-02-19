@@ -1,7 +1,8 @@
 ---
-import Title from './atoms/Title.astro';
-import { getPortfolioData} from "../components/data/portfolioData.js"
-import Card from './card-portfolio/CardPortfolio.astro';
+import { getPortfolioData} from "../../components/data/portfolioData"
+import Title from "../atoms/Title.astro";
+import Card from '../card-portfolio/CardPortfolio.astro';
+import "./portfolio.css"
 ---
 
 <section
@@ -9,25 +10,15 @@ import Card from './card-portfolio/CardPortfolio.astro';
 	class="flex flex-col w-full  justify-center items-center h-auto min-h-[100dvh]  "
 >
 	<div class="portfolio__container">
-		<Title contenido="Portfolio" />
+		<Title text="Portfolio" />
 		<div class="portfolio__elements">
 			{getPortfolioData.map((props) => <Card {...props} />)}
 		</div>
 	</div>
 </section>
 
-<style>
-	.portfolio__elements {
-		max-width: var(--max-width);
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		gap: 4rem;
-	}
-</style>
-
 <script>
-	import { getIMGAverageColor } from '../utils/average-img-color/average-img-color';
+	import { getIMGAverageColor } from '../../utils/average-img-color/average-img-color';
 
 	const $cards = document.querySelectorAll('.card__portfolio');
 	$cards.forEach((card) => {
