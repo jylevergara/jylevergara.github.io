@@ -45,7 +45,7 @@ export const portfolioData = [
 		skills: ['Wordpress', 'CSS'],
 		description:
 			'Digital marketing agency',
-		demoURL: '',
+		demoURL: 'https://boostmediagroup.com',
 		repoURL: '',
 		anim: 'fade-left',
 	},
@@ -65,7 +65,7 @@ export const portfolioData = [
 		skills: ['HTML', 'CSS'],
 		description:
 			'Property management website',
-		demoURL: '',
+		demoURL: 'https://www.grailmanagement.com/',
 		repoURL: '',
 		anim: 'fade-right',
 	},
@@ -75,7 +75,7 @@ export const portfolioData = [
 		skills: ['Wordpress', 'CSS'],
 		description:
 			'Small business website',
-		demoURL: '',
+		demoURL: 'https://paraoa-freediving.com',
 		repoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
@@ -86,7 +86,7 @@ export const portfolioData = [
 		skills: ['Wordpress', 'CSS'],
 		description:
 			'Virtual talent solutions',
-		demoURL: '',
+		demoURL: 'https://cosource.us',
 		repoURL: '',
 		anim: 'fade-left',
 	},
@@ -96,7 +96,7 @@ export const portfolioData = [
 		skills: ['React', 'Nodejs', 'MaterialUI'],
 		description:
 			'Hospitality and recreation website',
-		demoURL: 'https://cypresscovemarina.wixsite.com/lakeviewhouse',
+		demoURL: 'https://www.cypresscoveclermont.com/',
 		repoURL: '',
 		anim: 'fade-right',
 	},

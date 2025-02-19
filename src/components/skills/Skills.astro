@@ -1,21 +1,21 @@
 ---
 import Title from '../atoms/Title.astro';
-// import SkillsOnTerminal from './components/skills-on-terminal/skillsOnTerminal.astro';
-// import './skills.css';
+import './skills.css';
+import SkillsOnTerminal from './skillsOnTerminal.astro';
 ---
 
 <section id="skills">
 	<!-- <SkillsOnTerminal /> -->
+	 <div class="skills__container">
+	<div class="">
+		<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=javascript,react,nodejs,postgresql,typescript,nextjs,python,cpp,html,css,styledcomponents,tailwindcss,materialui,bootstrap,aws,redux,webpack,figma,github,sentry,postman,docker,apple,wordpress,vite,astro,vercel,atom,babel,firebase&theme=dark&perline=10" alt="My Skills" /></a>
+	</div>
 	<div class="text-content">
-		<Title text="Habilidades" />
-		<p>
-			Escribe aquí tus habilidades, recuerda mencionar las más relevantes
-			y evitar sobrecargar las habilidades , este apartado es muy
-			importante para dar a conocer lo que sabes y es una parte importante
-			para las empresas, pero si colocas demasiado, muchas veces se
-			pensará que es exagerado, mejor coloca en lo que más te destaques y
-			a la hora de postularte puedes mencionar las otras cosas que también
-			sabes.
+		<Title text="Skills" />
+		<p class="skills__text">
+			I specialize in full-stack development with expertise in JavaScript, TypeScript, React, Node.js, and Next.js. My technical foundation extends to SQL, PostgreSQL, and Python.  I build scalable applications using AWS, GitHub, and JIRA, while leveraging BigQuery and Google Analytics to make data-driven decisions that enhance user experience.
 		</p>
 	</div>
+</div>
+
 </section>

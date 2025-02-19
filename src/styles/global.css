@@ -113,6 +113,12 @@ body {
 main {
 	align-self: center;
 }
+
+h2 {
+	font-size: 5rem;
+	font-weight: 500;
+}
+
 p{
 	color: var(--primary-100);
 	font-size: var(--text-general);
@@ -128,3 +134,37 @@ p{
 .max__width {
 	max-width: 117.8rem;
 }
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 1009px) {
+
+	h2.call__action {
+		font-size: 4rem;
+	}
+
+	#cta {
+		padding: 9rem;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+
+	#cta {
+		padding: 8rem;
+	}
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 767px) {
+	h2.call__action {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#cta {
+		padding: 2rem;
+		margin: 2rem 0;
+	}
+}
+
