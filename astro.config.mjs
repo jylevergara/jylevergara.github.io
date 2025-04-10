@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://jylevergara.com',
+	site: 'http://jylevergara.github.io',
 	integrations: [react(), tailwind(), sitemap()],
+	base: 'landing-page-2025'
 });
