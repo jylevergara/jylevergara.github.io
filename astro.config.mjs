@@ -8,5 +8,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'http://jylevergara.github.io',
 	integrations: [react(), tailwind(), sitemap()],
-	base: 'landing-page-2025'
 });
