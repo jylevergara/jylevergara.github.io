@@ -33,22 +33,36 @@ const skills = [
 	{ id: 'atom', label: 'Atom' },
 	{ id: 'babel', label: 'Babel' },
 	{ id: 'firebase', label: 'Firebase' },
-]
+];
 ---
-
 
 <section id="skills">
 	<!-- <SkillsOnTerminal /> -->
-	 <div class="skills__container">
-	<div class="">
-		<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=javascript,react,nodejs,postgresql,typescript,nextjs,python,cpp,html,css,styledcomponents,tailwindcss,materialui,bootstrap,aws,redux,webpack,figma,github,sentry,postman,docker,apple,wordpress,vite,astro,vercel,atom,babel,firebase&theme=dark&perline=10" alt="My Skills" /></a>
+	<div class="skills__container">
+		<div class="skills__icons">
+			{
+				skills.map((skill) => (
+					<div class="skill-icon" data-label={skill.label}>
+						<img
+							src={`https://skillicons.dev/icons?i=${skill.id}&theme=dark`}
+							alt={skill.label}
+							width="48"
+							height="48"
+						/>
+					</div>
+				))
+			}
+		</div>
+		<div class="text-content">
+			<Title text="Skills" />
+			<p class="skills__text">
+				I specialize in full-stack development with expertise in
+				JavaScript, TypeScript, React, Node.js, and Next.js. My
+				technical foundation extends to SQL, PostgreSQL, and Python. I
+				build scalable applications using AWS, GitHub, and JIRA, while
+				leveraging BigQuery and Google Analytics to make data-driven
+				decisions that enhance user experience.
+			</p>
+		</div>
 	</div>
-			<div class="text-content">
-		<Title text="Skills" />
-		<p class="skills__text">
-			I specialize in full-stack development with expertise in JavaScript, TypeScript, React, Node.js, and Next.js. My technical foundation extends to SQL, PostgreSQL, and Python.  I build scalable applications using AWS, GitHub, and JIRA, while leveraging BigQuery and Google Analytics to make data-driven decisions that enhance user experience.
-		</p>
-	</div>
-</div>
-
 </section>

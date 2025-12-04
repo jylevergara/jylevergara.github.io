@@ -8,11 +8,43 @@
 
 .skills__container {
 	display: flex;
-	/* padding: 11rem 13.1rem; */
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	/* gap: 4.4rem; */
+	gap: 2rem;
+}
+
+.skills__icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+	max-width: 50rem;
+}
+
+.skill-icon {
+	position: relative;
+	display: inline-flex;
+}
+
+.skill-icon::after {
+	content: attr(data-label);
+	position: absolute;
+	bottom: calc(100% + 6px);
+	left: 50%;
+	transform: translateX(-50%);
+	background: #333;
+	color: #fff;
+	font-size: 1.2rem;
+	white-space: nowrap;
+	padding: 0.3rem 0.7rem;
+	border-radius: 4px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+}
+
+.skill-icon:hover::after {
+	opacity: 1;
 }
 
 #skills .text-content {
