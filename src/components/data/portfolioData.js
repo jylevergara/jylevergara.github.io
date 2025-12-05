@@ -40,7 +40,7 @@ export const portfolioData = [
 	// 	anim: 'fade-right',
 	// },
 	{
-		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/codehangar.png',
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/keepdoing.png',
 		title: 'Keep Doing',
 		skills: ['React', 'TypeScript', ''],
 		description:
