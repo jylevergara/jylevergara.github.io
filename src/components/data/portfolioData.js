@@ -41,10 +41,10 @@ export const portfolioData = [
 	// },
 	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/keepdoing.png',
-		title: 'Keep Doing',
+		title: 'KeepDoing',
 		skills: ['React', 'TypeScript', ''],
 		description:
-			'Project Management Tool',
+			'Project management tool',
 		demoURL: 'https://keepdoing.ai',
 		repoURL: '',
 		anim: 'fade-right',
