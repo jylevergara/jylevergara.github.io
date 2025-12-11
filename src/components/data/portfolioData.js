@@ -50,6 +50,16 @@ export const portfolioData = [
 		anim: 'fade-right',
 	},
 	{
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/keepdoing.png',
+		title: 'TechTank',
+		skills: ['React', 'TypeScript', ''],
+		description:
+			'Project management tool',
+		demoURL: 'https://keepdoing.ai',
+		repoURL: '',
+		anim: 'fade-right',
+	},
+	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/bmg.png',
 		title: 'Boost Media Group',
 		skills: ['Wordpress', 'CSS'],
