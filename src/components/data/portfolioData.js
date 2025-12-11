@@ -42,7 +42,7 @@ export const portfolioData = [
 	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/keepdoing.png',
 		title: 'KeepDoing',
-		skills: ['React', 'TypeScript', ''],
+		skills: ['React', 'TypeScript'],
 		description:
 			'Project management tool',
 		demoURL: 'https://keepdoing.ai',
@@ -52,7 +52,7 @@ export const portfolioData = [
 	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/techtank.png',
 		title: 'TechTank',
-		skills: ['React', 'TypeScript', ''],
+		skills: ['React', 'TypeScript', 'Nextjs'],
 		description:
 			'Tech community website',
 		demoURL: 'https://techtankto.com',
