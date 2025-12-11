@@ -54,7 +54,7 @@ export const portfolioData = [
 		title: 'TechTank',
 		skills: ['React', 'TypeScript', ''],
 		description:
-			'Project management tool',
+			'Tech community website',
 		demoURL: 'https://keepdoing.ai',
 		repoURL: '',
 		anim: 'fade-right',
