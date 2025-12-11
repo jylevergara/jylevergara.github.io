@@ -50,12 +50,12 @@ export const portfolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/keepdoing.png',
+		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/techtank.png',
 		title: 'TechTank',
 		skills: ['React', 'TypeScript', ''],
 		description:
 			'Tech community website',
-		demoURL: 'https://keepdoing.ai',
+		demoURL: 'https://techtankto.com',
 		repoURL: '',
 		anim: 'fade-right',
 	},
