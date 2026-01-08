@@ -17,3 +17,4 @@ The site will be available at `http://localhost:4321`.
 | ----------------- | ----------------------------------------- |
 | `npm run dev`     | Start the local dev server                |
 | `npm run build`   | Build the production site to `./dist/`    |
+| `npm run preview` | Preview the production build locally      |
