@@ -14,3 +14,5 @@ The site will be available at `http://localhost:4321`.
 ## Scripts
 
 | Command           | Action                                    |
+| ----------------- | ----------------------------------------- |
+| `npm run dev`     | Start the local dev server                |
