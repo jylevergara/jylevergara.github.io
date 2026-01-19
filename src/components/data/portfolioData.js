@@ -65,7 +65,7 @@ export const portfolioData = [
 		skills: ['React', 'TypeScript', 'Nextjs'],
 		description:
 			'Tech community website',
-		demoURL: 'https://techtankto.com',
+		demoURL: 'https:/overlabeled.online',
 		repoURL: '',
 		anim: 'fade-right',
 	},
