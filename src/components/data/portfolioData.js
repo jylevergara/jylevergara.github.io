@@ -61,10 +61,10 @@ export const portfolioData = [
 	},
 	{
 		imgSrc: 'https://portfolio-photos-1896ddf1.s3.us-east-1.amazonaws.com/overlabeled.png',
-		title: 'TechTank',
+		title: 'Overlabeled',
 		skills: ['React', 'TypeScript', 'Nextjs'],
 		description:
-			'Tech community website',
+			'Label maker app',
 		demoURL: 'https:/overlabeled.online',
 		repoURL: '',
 		anim: 'fade-right',
